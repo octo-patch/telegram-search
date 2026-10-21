@@ -15,8 +15,8 @@ export const LLM_PROVIDERS = {
   minimax: {
     label: 'MiniMax',
     apiBase: 'https://api.minimax.io/v1',
-    defaultModel: 'MiniMax-M3',
-    models: ['MiniMax-M3', 'MiniMax-M2.7', 'MiniMax-M2.7-highspeed'],
+    defaultModel: 'MiniMax-M3.1-Flash',
+    models: ['MiniMax-M3.1-Flash', 'MiniMax-M3'],
   },
 } as const satisfies Record<string, LLMProviderPreset>
 
